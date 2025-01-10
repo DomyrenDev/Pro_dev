@@ -1,0 +1,1 @@
+var = 'stringa originale'
