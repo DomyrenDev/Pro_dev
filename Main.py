@@ -142,7 +142,7 @@ class Pokemon:
 if __name__ == "_main_":
     #creare due pokemon
     Charizard = Pokemon("Charizard", "Fuoco", ["Lanciafiamme", "Aerofuria", "Artigliofuoco", "Dragospiro"], {"ATTACCO": 84, "DIFESA": 78}, np.random.choise(100))
-    Blastoise = Pokemon("Blastoise", "Acqua", ["Idropompa", "Pugnoscarica", "Idrondata", "Idrovortice"], {"ATTACCO": 83, "DIFESA": 100}np.random.choice(100))
+    Blastoise = Pokemon("Blastoise", "Acqua", ["Idropompa", "Pugnoscarica", "Idrondata", "Idrovortice"], {"ATTACCO": 83, "DIFESA": 100}, np.random.choice(100))
     Venusaur = Pokemon("Venusaur", "Erba", ["Petalodanza", "Foglielama", "Velenozanna", "Polvereveleno"], {"ATTACCO": 82, "DIFESA": 83}, np.random.choice(100))
     
 
@@ -172,7 +172,7 @@ if __name__ == "_main_":
             Charizard.fight(Blastoise)
         if pokemon_avversario == 1:
             Charizard.fight(Charizard)
-            
+
             
 
     
